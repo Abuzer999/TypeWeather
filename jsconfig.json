@@ -6,7 +6,4 @@
   },
   "exclude": ["node_modules", "dist"],
 
-  "scripts": {
-    "start": "npm run serve"
-  }
 }
