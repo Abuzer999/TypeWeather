@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: #13131a;
+  background-image: url('/main/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Nunito';
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  min-width: 320px;
+  position: relative;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+input {
+  outline: none;
+  background: none;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::selection {
+  background: rgb(247, 222, 4);
+  color: rgb(0, 0, 0);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+}
+
+:root {
+  scroll-behavior: smooth;
+}
