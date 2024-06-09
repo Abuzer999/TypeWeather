@@ -17,7 +17,7 @@ const getCity = async (city) => {
   try {
     error.value = false
     const response = await axios.get(
-      `${process.env.VITE_WEATHER_APP}${city}&days=6&aqi=yes&alerts=yes`
+      `https://api.weatherapi.com/v1/forecast.json?key=${process.env.VITE_WEATHER_APP}&q=${city}&days=6&aqi=yes&alerts=yes`
     )
     cityData.value = response.data
     showMainSearch.value = false
