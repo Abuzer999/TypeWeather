@@ -74,7 +74,7 @@ ScriptCompileContext
       <div>
         <h2 class="max-w-[370px] ws:max-w-[320px] w-full text-location text-[#fafafa] font-[700] leading-[140%]">
           <span>{{ props.cityDataInfo.location.country }},</span> <span class="ws:hidden">{{ props.cityDataInfo.location.region }},</span>
-          <span>{{ props.cityDataInfo.location.name }}</span>
+          <span> {{ props.cityDataInfo.location.name }}</span>
         </h2>
         <p class="mt-[8px] text-[16px] text-[#fafafa] font-[400] leading-[140%]">
           {{ daysOfWeek(props.cityDataInfo.location.localtime) }},
